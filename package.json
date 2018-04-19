@@ -1,26 +1,16 @@
 {
   "name": "slackim",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sakgup/slackim.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sakgup/slackim/issues"
+  "version": "0.0.1",
+  "description": "deploying node js to heroku platform",
+  "main": "server.js",
+  "author": {
+    "name": "sakshi gupta",
+    "email": "sakig1996@gmail.com"
   },
   "engines": {
-    "node": ">=4.2.0",
-    "npm": ">=2.14.7"
+    "node": "4.4.x",
+    "npm": "3.8.x"
   },
-  "homepage": "https://github.com/sakgup/slackim#readme",
   "dependencies": {
     "axios": "^0.16.0",
     "body-parser": "^1.17.1",
@@ -29,6 +19,3 @@
     "express": "^4.15.2"
   }
 }
- 
-   
-   
