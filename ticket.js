@@ -17,7 +17,7 @@ const sendConfirmation = (ticket) => {
         title: `Ticket created for ${ticket.userEmail}`,
         // Get this from the 3rd party helpdesk system
         title_link: 'http://example.com',
-        text: ticket.text, -
+        text: ticket.text, 
         fields: [
           {
             title: 'Title',
